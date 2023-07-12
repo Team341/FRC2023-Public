@@ -19,6 +19,7 @@ import com.ctre.phoenix.motorcontrol.NeutralMode;
 import com.ctre.phoenix.motorcontrol.can.WPI_TalonFX;
 import com.ctre.phoenix.sensors.CANCoder;
 
+// Based off 2539 code. Thank you!
 public class MK4iSwerveModule {
     public int moduleNumber;
     private Rotation2d angleOffset;

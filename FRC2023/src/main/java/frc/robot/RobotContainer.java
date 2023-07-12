@@ -114,7 +114,7 @@ public class RobotContainer {
         public boolean isAligningToTag() {
                 return false;
         }
-
+        // Based off 2539's code. Thank you, 2539!
         public static Supplier<Pose2d> getScoringLocation(Swerve swerve, double offsetY) {
                 return () -> {
                         PlacementLocation targetLocation = FieldConstants
